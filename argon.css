@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background:linear-gradient(rgba(78, 84, 200,0.8),rgba(109, 213, 250,0.9)), url(argonimg/img1.jpg)no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0 96%);
+    padding: 20px 100px 0px;
+}
+section nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .top-content{
+    display: flex;
+}
+nav .top-content>a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: #fff;
+    font-weight: 800;
+}
+nav .top-content ul{
+    display: flex;
+}
+nav .top-content ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav .top-content ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav .top-content ul li a:hover{
+    color: #f46b45;
+}
+nav .top-content ul li a::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    margin: auto;
+    display: block;
+    background-color: #f46b45;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+nav .top-content ul li:hover a::after{
+    width: 100%;
+}
+section nav .font i{
+    color: #fff;
+    margin: 0px 5px;
+    transition: 0.5s;
+}
+section nav .font i:hover{
+    transform: scale(2);
+}
+section nav .font a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: #fff;
+    margin: 0px 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 3px;
+}
+section nav .font a:hover{
+    background-color: #f46b45;
+    color: #fff;
+}
+section .text{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+section .text .big-text{
+    font-weight: 600;
+    color: #fff;
+}
+section .text .small-text{
+    font-weight: 300;
+    padding: 5px 0px 10px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+section .text p{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+section .text div .first{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #35d2d2;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 3px;
+}
+section .text div .second{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 3px;
+}
+section .text div .second:hover{
+    background-color: #f46b45;
+    color: #fff;
+}
+section .text div .first:hover{
+    background-color: #464cb5;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 90px;
+    position: absolute;
+    top: 65%;
+}
+.container div{
+    background-color: #fff;
+    margin: 0px 10px;
+    padding: 20px;
+    height: 180px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.container .box1 i{
+    color: rgba(78, 84, 200);
+    font-size: 2.2rem;
+}
+.container .box2 i{
+    font-size: 2rem;
+    color: #32ff7e;
+}
+.container .box3 i{
+    font-size: 2rem;
+    color: #ff4d4d;
+}
+.container div h2{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.container .box1 h2{
+    color: rgb(78, 84, 200);
+}
+.container .box2 h2{
+    color: #32ff7e;
+}
+.container .box3 h2{
+    color: #ff4d4d;
+}
+.container div p{
+    font-size: 0.8rem;
+}
